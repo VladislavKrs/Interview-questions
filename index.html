@@ -12,23 +12,23 @@
     <section class="section">
         <p class="title is-1 has-text-warning-light is-justify-content-center is-flex mb-5">A list of questions</p>
         <section>
-            <!-- <div class="container">
+            <div class="container">
                 <div class="list-textarea mb-3">
                     <label for="new-question"></label>
-                    <textarea class="p-1" name="new-quastion" id="new-quastion" cols="50" rows="8"></textarea>
-                    <button class="button has-background-danger-dark  has-text-info-light ml-3">Добавить новый вопрос</button>
+                    <textarea class="p-1" name="new-quastion" id="new-quastion" cols="50" rows="8" placeholder="Добавить новый вопрос"></textarea>
+                    <input class="button has-background-danger-dark  has-text-info-light ml-3" type="button" value="Add your question" onclick="btnNewQuestion()"></input>
                 </div>
-                <div class="list-checkbox has-background-danger-light is-flex is-justify-content-space-around is-align-self-center p-2 card">
+                <div class="list-checkbox has-background-primary-light is-flex is-justify-content-space-around is-align-self-center p-2 mb-5 card">
                     <span>
                         <label class="has-text-success-dark" for="check-question-yes">Разобрался в вопросе (спрятать)</label>
-                        <input class="input-checkbox" type="checkbox" id="check-question-yes">
+                        <input class="input-checkbox" type="checkbox" onclick="renderQuestionUnderstend()" id="check-question-yes">
                     </span>
                     <span>
                         <label class="has-text-danger-dark" for="check-question-no">Не разобрался в вопросе (спрятать)</label>
-                        <input class="input-checkbox" type="checkbox" id="check-question-no">
+                        <input class="input-checkbox" type="checkbox" onclick="renderQuestionDontUnderstend()" id="check-question-no">
                     </span>
                 </div>
-            </div> -->
+            </div>
             <div class="container" id="list-question">
 
             </div>
