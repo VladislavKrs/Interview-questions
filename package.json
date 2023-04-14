@@ -1,0 +1,33 @@
+{
+  "name": "interview-questions",
+  "version": "1.0.0",
+  "description": "My list interview-questions",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladislavKrs/Interview-questions.git"
+  },
+  "keywords": [
+    "List",
+    "interview-questions"
+  ],
+  "author": "VladKrs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladislavKrs/Interview-questions/issues"
+  },
+  "homepage": "https://github.com/VladislavKrs/Interview-questions#readme",
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.7"
+  }
+}
