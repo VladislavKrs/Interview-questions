@@ -1,4 +1,4 @@
-const listQuestion = [
+export const listQuestion = [
   {
     question: 'Объясните делегирование событий.',
     state: false,
